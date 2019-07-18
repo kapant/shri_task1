@@ -1,0 +1,103 @@
+:root {
+    box-sizing: border-box;
+}
+
+.theme_color_project-default {
+    --background_default: #FFFFFF;
+    --background_accent: #0056B3;
+    --background_border: #000000;
+    
+    --text_main: #000000;
+    --text_secondary: rgba(0, 0, 0, 0.6);
+    --text_additional: rgba(0, 0, 0, 0.3);
+    --text_link: #0070f0;
+}
+
+.theme_color_project-brand {
+    --background_default: #0070f0;
+    --background_accent: #FFFFFF;
+    --background_border: #FFFFFF;
+
+    --text_main: #FFFFFF;
+    --text_secondary: rgba(255, 255, 255, 0.6);
+    --text_additional: rgba(255, 255, 255, 0.3);
+    --text_link: #FFFFFF;
+}
+
+.theme_color_project-inverse {
+    --background_default: #000000;
+    --background_accent: #FFFFFF;
+    --background_border: #FFFFFF;
+    
+    --text_main: #FFFFFF;
+    --text_secondary: rgba(255, 255, 255, 0.6);
+    --text_additional: rgba(255, 255, 255, 0.3);
+    --text_link: #0070f0;
+}
+
+.theme_color_project-warning {
+    --background_default: #FF9900;
+    --background_accent: #FFFFFF;
+    --background_border: #FFFFFF;
+    
+    --text_main: #FFFFFF;
+    --text_secondary: rgba(255, 255, 255, 0.6);
+    --text_additional: rgba(255, 255, 255, 0.3);
+    --text_link: #FFF;
+}
+
+.theme_color_megafon-brand {
+    --background_default: #1FA55D;
+    --background_accent: #FFFFFF;
+    --background_border: #FFFFFF;
+    
+    --text_main: #FFFFFF;
+    --text_secondary: rgba(255, 255, 255, 0.6);
+    --text_additional: rgba(255, 255, 255, 0.3);
+    --text_link: #FFF;
+}
+
+.theme_size_default {
+    --font_size_s: 7px;
+    --font_size_m: 8px;
+    --font_size_l: 10px;
+    --font_size_xl: 11px;
+    --font_size_xxl: 13px;
+    
+    --line_height_s: 18px;
+    --line_height_m: 21px;
+    --line_height_l: 25px;
+    --line_height_xl: 28px;
+    --line_height_xxl: 34px;
+}
+
+.theme_space_default {
+    --space_xxxs: 2px;
+    --space_xxs: 4px;
+    --space_xs: 8px;
+    --space_s: 12px;
+    --space_m: 16px;
+    --space_l: 20px;
+    --space_xl: 24px;
+    --space_xxl: 32px;
+    --space_xxxl: 40px;
+    --space_xxxxl: 48px;
+    --space_xxxxxl: 72px.
+}
+
+.theme_gap_small {
+    --gap: 8px;
+    --gap_half: 4px;
+}
+
+@media screen {
+    .theme_gap_small {
+        --gap: 40px;
+        --gap_half: 20px;
+    }
+}
+
+.test {
+    background-color: var(--background_accent);
+    color: var(--text_main);
+}
